@@ -63,6 +63,7 @@ img {
 address {
     font-style: normal;
 }
+/* visual-hiden */
 
 .visualy-hiden{
     position: absolute;
@@ -79,7 +80,7 @@ address {
 }
 
 .container{
-    width: 1600px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -93,9 +94,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--black-txt-color);
 }
-.header-item{
-    margin-left: 50px;
-}
 
 /* Logo */
 
@@ -104,13 +102,13 @@ address {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--accent-color);
     text-decoration: none;
 
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .logo-web{
@@ -121,6 +119,7 @@ address {
 }
 
 /* header nav */
+
 .current{
     color: var(--accent-color)
 }
@@ -128,7 +127,11 @@ address {
 .header-list{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 93px;
+    width: 294px;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .header-list-contact{
@@ -151,6 +154,7 @@ address {
   color:var(--accent-color);
   cursor: pointer;
 }
+
 .header-contact{
     font-weight: 500;
     font-size: 14px;
@@ -158,18 +162,20 @@ address {
     letter-spacing: 0.02em;
     color: var(--description-color);
 }
+
 .header-contact:hover,
 .header-contact:focus{
     color:var(--accent-color);
     cursor: pointer;
 }
 
-    
-/* main conteny */
+    /* main conteny */
+
 .hero{
     background-color: #2F303A;
     text-align: center;
 }
+
 .hero-title{
     background-color: #2F303A;
     font-weight: 900;
@@ -180,11 +186,14 @@ address {
     text-transform: uppercase;
     color: var(--white-color);
 
+    display: flex;
     margin-bottom: 30px;
     width: 696px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 200px;
 }
+
 .button-order{
     font-family: inherit;
     font-family: 'Roboto';
@@ -201,10 +210,11 @@ address {
     background:var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    padding: 10px 32px;
+
+    padding: 10px 30px;
     cursor: pointer;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
 }
 
 /* about us */
@@ -214,16 +224,17 @@ address {
     padding-bottom: 91px;
     
 }
+
 .about-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 
-    text-align: center;
+    text-align:left;
     margin-bottom: 10px;
-
 }
+
 .about-list{
     display: flex;
     align-items: center;
@@ -232,10 +243,9 @@ address {
     margin-left: auto;
     margin-right: auto;
 }
+
 .about-item{
     width: 270px;
-
-    
 }
 
 .description {
@@ -244,9 +254,8 @@ address {
     line-height: 1.71;
     color: var(--description-color);
     
-    text-align: center;
+    text-align: left;
     margin-bottom: 0;
-
 }
 
 /* about us section 2 */
@@ -256,22 +265,38 @@ address {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 50px;
+    padding-top: 94px;
 }
+
 .aboutus-list{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .aboutus-item{
     padding: 0 15px 94px 15px;
 }
 
-
 /* our team */
+
 .team{
     background: #F5F4FA;
+}
+
+.team-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 94px;
 }
 
 .team-title{
@@ -279,7 +304,10 @@ address {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+
+    margin-top: 30px;
 }
+
 .team-position{
     font-size: 16px;
     line-height: 19px;
@@ -288,9 +316,11 @@ address {
 }
 
 /* footer */
+
 .footer{
     background-color: #2F303A;;
     font-style: normal;
+    display: flex;
 }
 
 /* logo */
@@ -303,16 +333,25 @@ address {
     line-height: 1.19;
     text-decoration: none;
     color: var(--accent-color);
+
+    display: flex;
+    margin-top: 60px;
 }
 
 .footer-logo-web {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-
     color:var(--white-color);
 }
+
 /* contacts */
+
+.footer-list{
+    display: block;
+    padding-bottom: 60px;
+}
+
 .footer-link-map{
     font-weight: 400;
     font-size: 14px;
@@ -320,11 +359,11 @@ address {
     color:var(--white-color);
     font-style: normal
 }
+
 .footer-link-contact{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
-        /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal
@@ -340,8 +379,6 @@ address {
 
 /* portfolio buttons */
 
-
-
 .button-porfolio {
     font-family: inherit;
     font-weight: 500;
@@ -352,10 +389,23 @@ address {
     background: #F5F4FA;
     border-radius: 4px;
 }
+
+.btn-portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 174px;
+    width: 611px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
 .active{
     background-color: var(--accent-color);
     color: var(--white-color);
 }
+
 .button-porfolio:hover,
 .button-porfolio:focus {
     background-color: var(--accent-color);
@@ -370,12 +420,39 @@ address {
     letter-spacing: 0.06em;
     color: var(--black-txt-color);
 }
+
 .filter-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.67;
     color: var(--description-color);
 }
+
+/* filter result */
+
+.filter-list{
+    padding:0;
+    margin: 0;
+    list-style: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
+    margin-bottom: 94px;
+}
+
+.filter-list>.filter-item{
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+}
+
+.filter-item{
+    border: 1px solid #EEEEEE;
+    margin: 15px;
+}
+    
 
 
 
