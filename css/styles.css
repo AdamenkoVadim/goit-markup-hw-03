@@ -170,7 +170,10 @@ address {
     color:var(--accent-color);
     cursor: pointer;
 }
-
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
     /* main conteny */
 
 .hero{
@@ -181,10 +184,7 @@ address {
     padding-bottom: 280px;
 }
 
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 
 .hero-title{
     background-color: #2F303A;
@@ -338,7 +338,7 @@ address {
 
     margin-bottom: 20px;
     margin-top: 20px;
-    }
+}
 
 .footer-logo-web {
     font-weight: 700;
