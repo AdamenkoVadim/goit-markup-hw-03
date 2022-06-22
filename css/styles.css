@@ -131,16 +131,23 @@ address {
 .header-list{
     display: flex;
     align-items: center;
-    margin-left: 93px;
+}
+
+.header-addres-wrapper {
+    margin-left: auto;
+    align-items: center;
+
 }
 
 .header-list-contact{
     display: flex;
-    align-items: center;
-    margin-left:  auto;
+    justify-content: end;
 }
 
+
 .header-item-contact{
+    display: flex;
+    align-items: center;
     margin-left: 50px;
 }
 
@@ -272,7 +279,7 @@ address {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .aboutus-list{
@@ -336,12 +343,10 @@ address {
     text-decoration: none;
     color: var(--accent-color);
 
-    
-    margin-top: 20px;
-}
-.logo-footer{
+    display: block;
     margin-bottom: 20px;
 }
+
 
 .footer-logo-web {
     font-weight: 700;
