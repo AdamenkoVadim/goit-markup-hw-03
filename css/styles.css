@@ -92,11 +92,12 @@ address {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     color: var(--black-txt-color);
-    margin-left: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+}
+
+.header-addres-wrapper {
+    margin-left: auto;
+    align-items: center;
 }
 
 /* Logo */
@@ -124,6 +125,17 @@ address {
 
 /* header nav */
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-wraper{
+    display: flex;
+    margin-left: 93px;
+    align-items: center;
+}
+
 .current{
     color: var(--accent-color)
 }
@@ -148,14 +160,24 @@ address {
 .header-item-contact{
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-right: 30px;
+    flex-direction: row-reverse;
+}
+.header-item-contact:last-child{
+    margin: 0;
 }
 
 .header-nav{
-    display: flex;
-    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-link-item{
+    margin-right: 50px;
 }
 
+.header-link-item:last-child{
+    margin: 0;
+}
 .header-item:hover,
 .header-item:focus{
   color:var(--accent-color);
