@@ -93,6 +93,8 @@ address {
     font-size: 14px;
     line-height: 1.14;
     color: var(--black-txt-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-addres-wrapper {
@@ -166,11 +168,11 @@ address {
 .header-item-contact:last-child{
     margin: 0;
 }
-
+/*
 .header-nav{
     padding-top: 32px;
     padding-bottom: 32px;
-}
+}*/
 .header-link-item{
     margin-right: 50px;
 }
@@ -324,6 +326,7 @@ address {
 .team-item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background: var(--white-color);
 }
 
 .team-list{
@@ -460,6 +463,7 @@ address {
 }
 
 .filter-description{
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.67;
@@ -487,6 +491,7 @@ address {
 }
 
 .card-filter{
+    padding: 0 24px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
