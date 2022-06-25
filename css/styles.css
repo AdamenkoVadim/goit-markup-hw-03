@@ -116,6 +116,7 @@ address {
     display: flex;
     align-items: center;
     margin-left: 0;
+    margin-right: 93px;
 }
 
 .logo-web{
@@ -134,7 +135,6 @@ address {
 
 .header-list-wraper{
     display: flex;
-    margin-left: 93px;
     align-items: center;
 }
 
@@ -212,7 +212,7 @@ address {
     text-align: center;
     
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 
@@ -348,6 +348,8 @@ address {
     line-height: 19px;
     text-align: center;
     color: var(--description-color);
+
+    margin-bottom: 0%;
 }
 
 /* footer */
@@ -386,7 +388,7 @@ address {
     display: block;
 }
 
-.footer-item{
+.footer-item:not(:last-child){
     margin-bottom: 9px;
 }
 
@@ -417,6 +419,9 @@ address {
 /* Portfolio page*/
 
 /* portfolio buttons */
+.btn:not(:first-child){
+    margin-left:  6px;
+}
 
 .button-porfolio {
     font-family: inherit;
@@ -429,7 +434,6 @@ address {
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
-    margin-left: 6px;
 }
 
 .btn-portfolio{
